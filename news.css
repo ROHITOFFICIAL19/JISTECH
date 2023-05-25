@@ -1,0 +1,381 @@
+/* body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    min-height: 100vh;
+}
+
+/* header section styles  */
+
+header {
+    padding: 90px;
+    background-color:#74b9ff;
+    color: white;
+}
+
+.header .top-banner .banner-pic img {
+    width: 556px;
+    height: 438px;
+}
+
+.top-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-title {
+    font-size: 52px;
+    width: 485px;
+    height: 230px;
+    padding-right: 0px;
+}
+
+.watch-live {
+    margin-top: 10%;
+    background: #E02C6D;
+    width: 150px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    transition: .5s ease-in-out background-color, .5s ease-in-out transform;
+    -webkit-transition: .5s ease-in-out background-color, .5s ease-in-out transform;
+    -moz-transition: .5s ease-in-out background-color, .5s ease-in-out transform;
+    -ms-transition: .5s ease-in-out background-color, .5s ease-in-out transform;
+    -o-transition: .5s ease-in-out background-color, .5s ease-in-out transform;
+}
+
+.watch-live:hover {
+    background-color: teal;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+.watch-live a {
+    color: white;
+    text-decoration: none;
+}
+
+.watch-live a i {
+    margin-left: 5px;
+}
+
+/* main section styles */
+
+
+.all-players {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 30px;
+    padding: 6% 16% 3% 13%;
+    margin-left: 2%;
+}
+
+.player-frame {
+    width: 315px;
+    height: 456px;
+    background-color: #f1dcdc;
+    padding: 5% 0% 0% 5%;
+    box-shadow: rgb(160, 159, 159) 10px 10px 10px;
+}
+
+
+.player-image img {
+    width: 300px;
+    height: 256px;
+}
+
+.player-info h2 {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.player-info p {
+    font-size: 16px;
+}
+
+/* bonus section 1 styles */
+
+.newsbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 16% 3% 13%;
+}
+
+.newsbox h1 {
+    font-size: 29px;
+    font-style: italic;
+}
+
+.news {
+    display: flex;
+}
+
+.newsframe {
+    width: 280px;
+    height: 280px;
+    border: rgb(48, 44, 44) 2px solid;
+    border-radius: 5%;
+    padding: 1%;
+    margin: 20px;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    background-color: rgb(228, 243, 220);
+}
+
+.news-pic img {
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.news-title a {
+    text-decoration: none;
+    color: rgb(252, 111, 46);
+}
+
+/* bonus section 2 styles */
+.poll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title-text {
+    font-size: 29px;
+    font-style: italic;
+}
+
+.poll-box {
+    background-color: rgb(65, 219, 219);
+    width: 30%;
+    padding-left: 5%;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+}
+
+.poll-options {
+    margin-left: 30%;
+    color: rgb(253, 251, 255);
+}
+.player{
+    text-decoration: none;
+    color: white;
+}
+
+/* footer styles  */
+body {
+    background-image: url("");
+    font-family: sans-serif;
+}
+
+footer {
+    position: sticky;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-image: url("images/2lol.jpg");
+    height: auto;
+    width: 100%;
+    top: 100%;
+
+
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: aliceblue;
+}
+
+.footer-content p {
+    max-width: 700px;
+    margin: 5px auto;
+    line-height: 15px;
+    font-size: 10px;
+    color: #cacdd2;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: 000;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: right;
+    font-size: 14px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a {
+    color: hsl(354, 78%, 59%);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.footer-menu {
+    float: left;
+
+}
+
+.footer-menu ul {
+    display: flex;
+
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #27bcda;
+}
+
+@media (max-width:500px) {
+    .footer-menu ul {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+/* media query styles  */
+
+@media screen and (max-width:510px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .top-banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-title {
+        font-size: 38px;
+        width: 100%;
+    }
+
+    .banner-text {
+        padding: 5%;
+
+    }
+
+    .banner-pic {
+        margin-top: 16%;
+    }
+
+    .header .top-banner .banner-pic img {
+        width: 329px;
+        height: 260px;
+
+    }
+
+    .watch-live {
+        margin-top: 0;
+    }
+
+
+    .all-players {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0%;
+        margin-top: 5%;
+
+    }
+
+    .news {
+        flex-direction: column;
+    }
+
+    .poll-options {
+        margin-left: 10%;
+    }
+
+    .footer-image {
+        margin: 0%;
+        width: 300px;
+        height: 80px;
+    }
+}
